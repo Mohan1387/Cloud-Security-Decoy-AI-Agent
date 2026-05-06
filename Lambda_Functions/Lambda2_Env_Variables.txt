@@ -1,0 +1,9 @@
+Key                        Value  
+CLOUDTRAIL_FORWARD_MINUTES   2
+CLOUDTRAIL_LOOKBACK_MINUTES  15
+ENABLE_CLOUDTRAIL_ENRICHMENT true
+EVENTS_TABLE                 DecoySessionEvents
+INACTIVITY_SECONDS           120
+MAX_CLOUDTRAIL_EVENTS        50
+SESSIONS_TABLE               DecoySessions
+SQS_QUEUE_URL                https://sqs.us-east-2.amazonaws.com/585192672941/decoy-events-aggregated

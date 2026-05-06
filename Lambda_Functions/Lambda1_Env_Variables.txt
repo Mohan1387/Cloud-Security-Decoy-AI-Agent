@@ -1,0 +1,3 @@
+Key               Value
+EVENTS_TABLE      DecoySessionEvents
+SESSIONS_TABLE    DecoySessions

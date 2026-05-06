@@ -1,0 +1,12 @@
+services:
+  agent:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      - LOG_FORMAT=json
+      - LOG_LEVEL=INFO
+      - POLL_INTERVAL_SECONDS=30
+    # Mount AWS credentials if not using IAM roles
+    # volumes:
+    #   - ~/.aws:/home/appuser/.aws:ro
