@@ -1,4 +1,4 @@
-# Cloud Decoy AI Agent
+# Cloud Security Decoy AI Agent
 
 An AI-powered AWS security incident investigation system that automatically detects, investigates, and reports on unauthorized access to decoy S3 buckets (honeypots). The system combines serverless event pipelines with a LangGraph-orchestrated AI agent that uses the Model Context Protocol (MCP) to query AWS services, build attack graphs, and generate comprehensive PDF incident reports.
 
